@@ -1,0 +1,93 @@
+html,
+body{
+	width: 100%;
+	font-family: 'Open Sans', 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/*Navbar-Header*/
+.navbar-container {
+    background-color: darkslategrey;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.fa-camera {
+    color: #ffffff;
+}
+
+/*icon-bar*/
+.icon-bar{
+    background-color: #ffffff;
+    margin-top: 14px;
+}
+
+/* BODY */
+
+/* Album-Container */
+.album-example {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.album-text h2 {
+    font-size: 38px;
+}
+
+.album-paragraph {
+    font-size: 18px;
+    margin-top: 22px;
+}
+
+.album-button {
+    margin-top: 22px;
+}
+
+.btn-primary {
+    border-radius: 0px;
+}
+
+.btn-default {
+    border-radius: 0px;
+    color: #ffffff;
+}
+
+/* Album-Thumbnails */
+.text-card {
+    background-color: darkslategrey;
+    height: 14em;
+}
+
+.thumbnail-text {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+.container-thumbnails {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-content {
+    background-color: #ffffff;
+}
+
+.card-paragraph p {
+    color: #000;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding: 27px;
+}
+
+.glyphicon-menu-hamburger {
+    margin-top: 15px;
+    color: grey;
+    cursor: pointer;
+}
